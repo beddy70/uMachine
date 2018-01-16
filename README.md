@@ -48,10 +48,26 @@ Autre point très pénible dans la programmation de l'Arduino est la gestion mé
 ```
 byte RAM[65536]; 
 ```
-Pour m'en sortir je vais créer des bancs de mémoire : 
+Pour m'en sortir j'ai créer des bancs de mémoire (tableau à deux dimensions): 
 
 ```
 byte RAM[8][8192]; 
 ```
+
+Mais là encore problème de compilation (le block 8192 est trop gros). Je suis donc lancé dans l'allocation dynamique à base de malloc :
+
+
+```
+byte RAM**;
+ram=(byte**)(malloc(BLOCK_NUM*sizeof(byte)));
+//alloc and clean memory
+for(int i=0;i<BLOCK_NUM;i++){
+  ram[i]=(byte*)(malloc(sizeof(byte)*BLOCK_SIZE));
+  for (int j=0;j<BLOCK_SIZE;j++){
+    ram[i][j]=0;
+  }  
+}
+```
+Enfin ceci compile mais pendant l'exécution du mon programme la mémoire est écrasée par les variables allouées par l'Arduino et inscrit des données poluantes dans ma RAM. 
 
 
