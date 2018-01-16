@@ -15,6 +15,8 @@ $0438 12 05 20 36 34 20 02 01 . . . 6 4 . . .
 $0440 13 09 03 20 16 32 20 2a . . . . . 2 . * 
 $0448 2a 2a 2a 20 20 20 20 20 * * * . . . . .
 ```
+![](http://somanybits.com/images/forum/c64msg.jpg)
+
 # Liste des tâches
 
 Ce qu'il reste à faire avant de déposer les premières sources du code : 
