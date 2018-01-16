@@ -1,11 +1,11 @@
 # uMachine
-Le projet uMachine est de concevoir un ordinateur virtuel s’inspirant des micros ordinateurs des années 80 avec un Arduino Due. 
+Le projet uMachine est de concevoir un ordinateur virtuel s’inspirant des micros ordinateurs des années 80 avec un [Arduino Due](https://store.arduino.cc/arduino-due). 
 
-Il possède un processeur virtuel 8bits s’inspirant du 6510 mos accompagné d’une mémoire vide de 64Ko.
+Il possède un processeur virtuel 8bits s’inspirant du [6510 mos](https://www.wikiwand.com/fr/MOS_Technology_6502) accompagné d’une mémoire vide de 64Ko.
 
-Coté graphique on sur un GameDuino offrant  32Ko RAM vidéo et une sortie VGA. 
+Coté graphique on sur un [GameDuino](http://excamera.com/sphinx/gameduino/) offrant  32Ko RAM vidéo et une sortie VGA. 
 
-## En développemnt
+## En développement
 Actuellement le CPU virtuel est finalisé et est en cours de debbug. L'execution du Kernal d'orgine du C64 se déroule sans problème.On peux voir s'inscrire en mémoire le fameux message du Commodore 64 : 
 
 ```
