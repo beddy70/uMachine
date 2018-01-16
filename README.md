@@ -26,4 +26,7 @@ Ce qu'il reste à faire avant de déposer les premières sources du code :
 - [ ] Debbug de la librairie
 - [ ] Ecriture de la ROM CHARSET dans la mémoire du Gamduino (Copier la police de caractères de C64)
 - [ ] Mapper la Mémoire RAM($400-7FF) vers la mémoire d'affichage RAM du Gameduino (Ce code sera effacer après les tests)
-- [ ] Ajouter des commande GLDA et GSTA au CPU (permet l'écriture de l'accumulateur vers la mémoire du GameDuino)
+- [ ] Ajouter des commandes GLDA et GSTA au CPU (permet l'écriture de l'accumulateur vers la mémoire du GameDuino et vice versa)
+- [ ] Modfier les routines en ROM de gestion de l'écran. (fournir un outils java pour réaliser la modification de la ROM)
+- [ ] Ecriture des CIA virtuel
+- [ ] Connecter un clavier PS2 (en utilisant le port PS2 du GameDuino)
