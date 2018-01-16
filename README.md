@@ -39,9 +39,9 @@ Actuellement le code permettant d'intépréter le code du 6510 virtuel est inscr
 void loop(){ ...
 ```
 
-Les performances actuelles n'annoncent pas une machine des plus rapide (et pour l'instant je ne vois pas comment améliorer ça).Pour exemple dans cette boucle j'ai insris un code changeant l'état de sortie d'un PIN DIGITAL de l'arduino et j'ai mesuré à l'osiloscope une fréquence atteignant à peine les 200Hz. Rappellons que l'Adruino Due est cadencé à 84Mhz.  
+Les performances actuelles n'annoncent pas une machine des plus rapide (et pour l'instant je ne vois pas comment améliorer ça).Pour exemple dans cette boucle j'ai inscris un code changeant l'état de sortie d'un PIN DIGITAL de l'Arduino et j'ai mesuré à l'oscilloscope une fréquence atteignant à peine les 200Hz. Rappelons que l'Arduino Due est cadencé à 84Mhz. 
 
-A terme j'aimerai cadencer le CPU virtuel via un timer/interruption de l'arduino mais pour l'instant chaque tentative scratch l'Arduino Due. 
+A terme j'aimerai cadencer le CPU virtuel via un timer/interruption de l'Arduino mais pour l'instant chaque tentative scratch l'Arduino Due. 
 
 
 
