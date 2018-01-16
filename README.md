@@ -28,8 +28,15 @@ Ce qu'il reste à faire avant de déposer les premières sources du code :
 - [ ] Mapper la Mémoire RAM($400-7FF) vers la mémoire d'affichage RAM du Gameduino (Ce code sera effacer après les tests)
 - [ ] Ajouter des commandes GLDA et GSTA au CPU (permet l'écriture de l'accumulateur vers la mémoire du GameDuino et vice versa)
 - [ ] Modfier les routines en ROM de gestion de l'écran. (fournir un outils java pour réaliser la modification de la ROM)
-- [ ] Ecriture des CIA virtuel
+- [ ] Ecriture des CIAs virtuels
 - [ ] Connecter un clavier PS2 (en utilisant le port PS2 du GameDuino)
 
-# Problèmes recontrés
+# Problèmes rencontrés
+
+Actuellement le code permettant d'intépréter le code du 6510 virtuel est inscrit dans la boucle :
+
+```
+void loop(){ ...
+```
+
 
