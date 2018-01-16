@@ -1,9 +1,9 @@
 # uMachine
 Le projet uMachine est de concevoir un ordinateur virtuel s’inspirant des micros ordinateurs des années 80 avec un [Arduino Due](https://store.arduino.cc/arduino-due). 
 
-Il possède un processeur virtuel 8bits s’inspirant du [6510 mos](https://www.wikiwand.com/fr/MOS_Technology_6510) accompagné d’une mémoire vide de 64Ko.
+Il possède un processeur virtuel 8bits s’inspirant du [6510 mos](https://www.wikiwand.com/fr/MOS_Technology_6510) accompagné d’une mémoire vive ([RAM](https://www.wikiwand.com/fr/RAM)) de 64Ko.
 
-Coté graphique on sur un [GameDuino](http://excamera.com/sphinx/gameduino/) offrant  32Ko RAM vidéo et une sortie VGA. 
+Pour la partie graphique on reposera sur un [GameDuino](http://excamera.com/sphinx/gameduino/) offrant 32Ko RAM vidéo et une sortie VGA. 
 
 ## En développement
 Actuellement le CPU virtuel est finalisé et inspiré du code de [Seth J. Morabito](https://github.com/sethm/symon). L'execution du Kernal d'orgine du C64 se déroule sans problème.On peux voir s'inscrire en mémoire le fameux message du Commodore 64 (il ne s'agit pas de code [ASCII](https://www.wikiwand.com/fr/American_Standard_Code_for_Information_Interchange) ici le A=0x01, B=0x02 ... ) : 
@@ -41,10 +41,12 @@ Actuellement le code permettant d'intépréter le code du 6510 virtuel est inscr
 void loop(){ ...
 ```
 
+### Vitesse du CPU 
 Les performances actuelles n'annoncent pas une machine des plus rapide (et pour l'instant je ne vois pas comment améliorer ça).Pour exemple dans cette boucle j'ai inscris un code changeant l'état de sortie d'un PIN DIGITAL de l'Arduino et j'ai mesuré à l'oscilloscope une fréquence atteignant à peine les 200Hz. Rappelons que l'Arduino Due est cadencé à 84Mhz. 
 
 A terme j'aimerai cadencer le CPU virtuel via un timer/interruption de l'Arduino mais pour l'instant chaque tentative scratch l'Arduino Due. 
 
+### Gestion mémoire de l'Arduino Due
 Autre point très pénible dans la programmation de l'Arduino est la gestion mémoire.J'ai eu beaucoup de difficulter à allouer un tableau de 64Ko en RAM. Dans un première temps impossible d'écrire sur un Arduino avec 96Ko de RAM la ligne suivante (le compilateur refuse): 
 
 ```
