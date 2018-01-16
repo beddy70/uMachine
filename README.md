@@ -43,7 +43,7 @@ Les performances actuelles n'annoncent pas une machine des plus rapide (et pour 
 
 A terme j'aimerai cadencer le CPU virtuel via un timer/interruption de l'Arduino mais pour l'instant chaque tentative scratch l'Arduino Due. 
 
-Autre point très pénible dans la programmation de l'Arduino est la gestion mémoire.J'ai eu beaucoup de difficulter à allouer un tableau de 64Ko en RAM. Dans un première temps impossible d'écrire sur un Arduino avec 96Ko de RAM (le compilateur refuse): 
+Autre point très pénible dans la programmation de l'Arduino est la gestion mémoire.J'ai eu beaucoup de difficulter à allouer un tableau de 64Ko en RAM. Dans un première temps impossible d'écrire sur un Arduino avec 96Ko de RAM la ligne suivante (le compilateur refuse): 
 
 ```
 byte RAM[65536]; 
