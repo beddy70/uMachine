@@ -30,6 +30,17 @@ Je sais j'ai 0Ko de Basic Bytes Free (je travaille sur le bug)
 
 ![](http://somanybits.com/images/forum/c64msg.jpg)
 
+Initialisation du VIC II ok : 
+
+```
+d000 00 00 00 00 00 00 00 00  . . . . . . . . 
+d008 00 00 00 00 00 00 00 00  . . . . . . . . 
+d010 00 9b 00 00 00 00 08 00  . . . . . . . . 
+d018 14 0f 00 00 00 00 00 00  . . . . . . . . 
+d020 0e 06 01 02 03 04 00 01  . . . . . . . . 
+d028 02 03 04 05 06 07 4c 00  . . . . . . . .  
+d030 00 
+```
 ## Liste des tâches
 
 Ce qu'il reste à faire avant de déposer les premières sources du code : 
