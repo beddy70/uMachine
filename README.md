@@ -15,3 +15,15 @@ $0438 12 05 20 36 34 20 02 01 . . . 6 4 . . .
 $0440 13 09 03 20 16 32 20 2a . . . . . 2 . * 
 $0448 2a 2a 2a 20 20 20 20 20 * * * . . . . .
 ```
+# Liste des tâches
+
+Ce qu'il reste à faire avant de déposer les premières sources du code : 
+
+- [x] Ecriture du CPU virtuel
+- [x] Intégration des ROMs (BASIC/KERNAL/CHARSET)
+- [ ] Debbug du CPU virtuel
+- [ ] Ecriture du mini libraire pour le Gameduino
+- [ ] Debbug de la librairie
+- [ ] Ecriture de la ROM CHARSET dans la mémoire du Gamduino (Copier la police de caractères de C64)
+- [ ] Mapper la Mémoire RAM($400-7FF) vers la mémoire d'affichage RAM du Gameduino (Ce code sera effacer après les tests)
+- [ ] Ajouter des commande GLDA et GSTA au CPU (permet l'écriture de l'accumulateur vers la mémoire du GameDuino)
