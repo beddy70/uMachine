@@ -61,7 +61,7 @@ Mais là encore problème de compilation (le block 8192 est trop gros). Je suis 
 #define BLOCK_SIZE 8192
 #define BLOCK_NUM 8
 ...
-byte RAM**;
+byte **RAM;
 ...
 ram=(byte**)(malloc(BLOCK_NUM*sizeof(byte)));
 //alloc and clean memory
@@ -74,4 +74,11 @@ for(int i=0;i<BLOCK_NUM;i++){
 ```
 Enfin ceci compile mais pendant l'exécution du mon programme la mémoire est écrasée par les variables allouées par l'Arduino et inscrit des données poluantes dans ma RAM. 
 
+Finalement je m'en sortirai via la commande static et déclarant un tableau 2 dimensions en variable globale : 
 
+```
+#define MEMBLOCK(addr) ((addr>>13)&0x07) 
+#define MEMOFFSET(addr) (addr&0x1fff)
+
+static byte ram[BLOCK_NUM][BLOCK_SIZE];
+```
