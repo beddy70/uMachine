@@ -77,8 +77,8 @@ Enfin ceci compile mais pendant l'exécution du mon programme la mémoire est é
 Finalement je m'en sortirai via la commande static et déclarant un tableau 2 dimensions en variable globale : 
 
 ```
-#define MEMBLOCK(addr) ((addr>>13)&0x07) 
-#define MEMOFFSET(addr) (addr&0x1fff)
+#define BLOCK_SIZE 8192
+#define BLOCK_NUM 8
 
 static byte ram[BLOCK_NUM][BLOCK_SIZE];
 ```
