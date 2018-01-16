@@ -30,3 +30,6 @@ Ce qu'il reste à faire avant de déposer les premières sources du code :
 - [ ] Modfier les routines en ROM de gestion de l'écran. (fournir un outils java pour réaliser la modification de la ROM)
 - [ ] Ecriture des CIA virtuel
 - [ ] Connecter un clavier PS2 (en utilisant le port PS2 du GameDuino)
+
+# Problèmes recontrés
+
