@@ -27,6 +27,7 @@ Actuellement le CPU virtuel est finalisé et inspiré du code de [Seth J. Morabi
 4a0 20 20 20 20 20 20 20 20  . . . . . . . . 
 ```
 Je sais j'ai 0Ko de Basic Bytes Free (je travaille sur le bug)
+
 ![](http://somanybits.com/images/forum/c64msg.jpg)
 
 ## Liste des tâches
