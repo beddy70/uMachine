@@ -9,11 +9,31 @@ Pour la partie graphique on reposera sur un [GameDuino](http://excamera.com/sphi
 Actuellement le CPU virtuel est finalisé et inspiré du code de [Seth J. Morabito](https://github.com/sethm/symon). L'execution du Kernal d'orgine du C64 se déroule sans problème.On peux voir s'inscrire en mémoire le fameux message du Commodore 64 (il ne s'agit pas de code [ASCII](https://www.wikiwand.com/fr/American_Standard_Code_for_Information_Interchange) ici le A=0x01, B=0x02 ... ) : 
 
 ```
-$0428 20 20 20 20 2a 2a 2a 2a . . . . * * * * 
-$0430 20 03 0f 0d 0d 0f 04 0f . . . . . . . . 
-$0438 12 05 20 36 34 20 02 01 . . . 6 4 . . . 
-$0440 13 09 03 20 16 32 20 2a . . . . . 2 . * 
-$0448 2a 2a 2a 20 20 20 20 20 * * * . . . . .
+428 20 20 20 20 2a 2a 2a 2a  . . . . * * * * 
+430 20 03 0f 0d 0d 0f 04 0f  . C O M M O D O 
+438 12 05 20 36 34 20 02 01  R E . 6 4 . B A 
+440 13 09 03 20 16 32 20 2a  S I C . V 2 . * 
+448 2a 2a 2a 20 20 20 20 20  * * * . . . . . 
+450 20 20 20 20 20 20 20 20  . . . . . . . . 
+458 20 20 20 20 20 20 20 20  . . . . . . . . 
+460 20 20 20 20 20 20 20 20  . . . . . . . . 
+468 20 20 20 20 20 20 20 20  . . . . . . . . 
+470 20 20 20 20 20 20 20 20  . . . . . . . . 
+478 20 36 34 0b 20 12 01 0d  . 6 4 K . R A M 
+480 20 13 19 13 14 05 0d 20  . S Y S T E M . 
+488 20 30 20 02 01 13 09 03  . 0 . B A S I C 
+490 20 02 19 14 05 13 20 06  . B Y T E S . F 
+498 12 05 05 20 20 20 20 20  R E E . . . . . 
+4a0 20 20 20 20 20 20 20 20  . . . . . . . . 
+4a8 20 20 20 20 20 20 20 20  . . . . . . . . 
+4b0 20 20 20 20 20 20 20 20  . . . . . . . . 
+4b8 20 20 20 20 20 20 20 20  . . . . . . . . 
+4c0 20 20 20 20 20 20 20 20  . . . . . . . . 
+4c8 20 20 20 20 20 20 20 20  . . . . . . . . 
+4d0 20 20 20 20 20 20 20 20  . . . . . . . . 
+4d8 20 20 20 20 20 20 20 20  . . . . . . . . 
+4e0 20 20 20 20 20 20 20 20  . . . . . . . . 
+4e8 20 20 20 20 20 20 20 20  . . . . . . . . 
 ```
 ![](http://somanybits.com/images/forum/c64msg.jpg)
 
