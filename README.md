@@ -58,7 +58,11 @@ Mais là encore problème de compilation (le block 8192 est trop gros). Je suis 
 
 
 ```
+#define BLOCK_SIZE 8192
+#define BLOCK_NUM 8
+...
 byte RAM**;
+...
 ram=(byte**)(malloc(BLOCK_NUM*sizeof(byte)));
 //alloc and clean memory
 for(int i=0;i<BLOCK_NUM;i++){
