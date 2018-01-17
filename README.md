@@ -21,12 +21,11 @@ Actuellement le CPU virtuel est finalisé et inspiré du code de [Seth J. Morabi
 470 20 20 20 20 20 20 20 20  . . . . . . . . 
 478 20 36 34 0b 20 12 01 0d  . 6 4 K . R A M 
 480 20 13 19 13 14 05 0d 20  . S Y S T E M . 
-488 20 30 20 02 01 13 09 03  . 0 . B A S I C 
-490 20 02 19 14 05 13 20 06  . B Y T E S . F 
-498 12 05 05 20 20 20 20 20  R E E . . . . . 
+488 20 33 38 39 31 31 20 02  . 3 8 9 1 1 . B 
+490 01 13 09 03 20 02 19 14  A S I C . B Y T 
+498 05 13 20 06 12 05 05 20  E S . F R E E . 
 4a0 20 20 20 20 20 20 20 20  . . . . . . . . 
 ```
-Je sais j'ai 0Ko de Basic Bytes Free (je travaille sur le bug)
 
 ![](http://somanybits.com/images/forum/c64msg.jpg)
 
