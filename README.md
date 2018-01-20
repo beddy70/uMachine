@@ -72,6 +72,6 @@ A terme j'aimerai cadencer le CPU virtuel via un timer/interruption de l'Arduino
 ## Documentation
 
 Livres
-- Le livre du C64 de Benoît Michel
-- Programmation du 6502 de Rodnay Zaks
+- Le livre du C64 (Benoît Michel)
+- Programmation du 6502 (Rodnay Zaks)
 Web
