@@ -78,5 +78,5 @@ Livres
 Sur le Web
 - [sta.c64.org](http://sta.c64.org/cbm64mem.html)
 - [www.c64-wiki.de](https://www.c64-wiki.de/wiki/KERNAL)
-- [github.com/sethm/symon/blob/master)](https://github.com/sethm/symon/blob/master/src/main/java/com/loomcom/symon)
-- [ROMs C64 commentés en anglais](https://github.com/mist64/c64rom/blob/master/c64rom_en.txt)
+- Emulateur 6510 [github.com/sethm/symon/blob/master)](https://github.com/sethm/symon/blob/master/src/main/java/com/loomcom/symon)
+- ROMs C64 commentés en anglais [https://github.com/mist64/c64rom/blob](https://github.com/mist64/c64rom/blob/master/c64rom_en.txt)
