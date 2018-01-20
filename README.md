@@ -69,3 +69,9 @@ Les performances actuelles n'annoncent pas une machine des plus rapide (et pour 
 
 A terme j'aimerai cadencer le CPU virtuel via un timer/interruption de l'Arduino mais pour l'instant chaque tentative scratch l'Arduino Due. 
 
+## Documentation
+
+Livres
+- Le livre du C64 de Benoît Michel
+- Programmation du 6502 de Rodnay Zaks
+Web
