@@ -74,4 +74,8 @@ A terme j'aimerai cadencer le CPU virtuel via un timer/interruption de l'Arduino
 Livres
 - Le livre du C64 (Benoît Michel)
 - Programmation du 6502 (Rodnay Zaks)
-Web
+
+Sur le Web
+- [sta.c64.org](http://sta.c64.org/cbm64mem.html)
+- [www.c64-wiki.de](https://www.c64-wiki.de/wiki/KERNAL)
+- [github.com/sethm/symon/blob/master)](https://github.com/sethm/symon/blob/master/src/main/java/com/loomcom/symon)
