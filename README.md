@@ -47,7 +47,7 @@ Ce qu'il reste à faire avant de déposer les premières sources du code :
 - [x] Ecriture du CPU virtuel
 - [x] Intégration des ROMs (BASIC/KERNAL/CHARSET)
 - [ ] Debbug du CPU virtuel
-- [ ] Ecriture du mini libraire pour le Gameduino
+- [x] Ecriture du mini libraire pour le Gameduino
 - [ ] Debbug de la librairie
 - [ ] Ecriture de la ROM CHARSET dans la mémoire du Gamduino (Copier la police de caractères de C64)
 - [ ] Mapper la Mémoire RAM($400-7FF) vers la mémoire d'affichage RAM du Gameduino (Ce code sera effacer après les tests)
