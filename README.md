@@ -49,8 +49,8 @@ Ce qu'il reste à faire avant de déposer les premières sources du code :
 - [ ] Debbug du CPU virtuel
 - [x] Ecriture du mini libraire pour le Gameduino
 - [ ] Debbug de la librairie
-- [ ] Ecriture de la ROM CHARSET dans la mémoire du Gamduino (Copier la police de caractères de C64)
-- [ ] Mapper la Mémoire RAM($400-7FF) vers la mémoire d'affichage RAM du Gameduino (Ce code sera effacer après les tests)
+- [x] Ecriture de la ROM CHARSET dans la mémoire du Gamduino (Copier la police de caractères de C64)
+- [x] Mapper la Mémoire RAM($400-7FF) vers la mémoire d'affichage RAM du Gameduino (Ce code sera effacer après les tests)
 - [ ] Ajouter des commandes GLDA et GSTA au CPU (permet l'écriture de l'accumulateur vers la mémoire du GameDuino et vice versa)
 - [ ] Modfier les routines en ROM de gestion de l'écran. (fournir un outils java pour réaliser la modification de la ROM)
 - [ ] Ecriture des CIAs virtuels
