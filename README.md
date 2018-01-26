@@ -64,6 +64,11 @@ Actuellement le code permettant d'intépréter le code du 6510 virtuel est inscr
 void loop(){ ...
 ```
 
+Je rencontre aussi beacoup de problèmes avec l'IDE de l'Arduino qui me semble parfois buggé :
+- Il m'est impossible dans certaine situation d'utliser la fonction Serial.println(...) l'arduino crash alors que sans cette commande ça fonctionne. 
+- l'allocation de variable se comporte parfois curieusement (modification des données sans raison). 
+- des définitions dans les .h ignorées à la compilation avec le message : does not name a type 
+
 ### Vitesse du CPU 
 ~~Les performances actuelles n'annoncent pas une machine des plus rapide (et pour l'instant je ne vois pas comment améliorer ça).Pour exemple dans cette boucle j'ai inscris un code changeant l'état de sortie d'un PIN DIGITAL de l'Arduino et j'ai mesuré à l'oscilloscope une fréquence atteignant à peine les 200Hz. Rappelons que l'Arduino Due est cadencé à 84Mhz.~~ 
 
