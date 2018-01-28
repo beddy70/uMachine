@@ -90,3 +90,4 @@ Sur le Web
 - ROMs C64 commentés en anglais [https://github.com/mist64/c64rom/blob](https://github.com/mist64/c64rom/blob/master/c64rom_en.txt)
 - Mini guide de référence du [Gameduino 1](http://excamera.com/files/gameduino/synth/doc/gen/poster.pdf) 
 - [CIA documentation](https://www.c64-wiki.com/wiki/CIA)      
+- [Lecture du clavier](https://www.c64-wiki.com/wiki/Keyboard)
