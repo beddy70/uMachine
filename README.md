@@ -91,3 +91,4 @@ Sur le Web
 - Mini guide de référence du [Gameduino 1](http://excamera.com/files/gameduino/synth/doc/gen/poster.pdf) 
 - [CIA documentation](https://www.c64-wiki.com/wiki/CIA)      
 - [Lecture du clavier](https://www.c64-wiki.com/wiki/Keyboard)
+- [Timers de l'Arduino Due](http://ko7m.blogspot.fr/2015/01/arduino-due-timers-part-1.html)
